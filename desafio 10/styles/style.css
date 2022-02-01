@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
     font-family: 'Inter', sans-serif;
-    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -29,6 +28,10 @@ h4{
     color: #FEFBFB;
     font-weight: normal;
 }
+p{
+
+    line-height: 20px;
+}
 span{
     background-color: #8257E6;
     padding: 4px 18px;
@@ -44,22 +47,25 @@ img{
 }
 .card{
     display: grid;
-    
+    background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);
 }
 .card > img{
     grid-row: 1/3;
     grid-column: 1;
+    z-index: -1;
 }
 .card > h4{
     grid-row: 1/3;
     grid-column: 1;
     padding: 10px 0 0 10px;
+    
 }
 
 .card > p{
     grid-row: 2/3;
     grid-column: 1;
-    padding-left: 10px;
+    padding: 0 20px 10px 10px;
+    font-size: 13px;
 }
     /* menu */
 
@@ -97,4 +103,68 @@ ul{
 .card_1 p{
     padding: 0 30px 15px 30px;
     font-size: 24px;
+    line-height: 34px;
+    
+}
+    /* parte corpo */
+
+#corpo{
+    display: grid;
+    grid-template-columns: 1fr 338px;
+    gap: 20px;  
+    margin-top: 50px;
+}
+#array_animes{
+    overflow-y: scroll;
+    max-height: 900px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 18px;
+    margin-bottom: 35px;
+}   
+
+.container_img{
+    display: grid;
+    background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);
+
+}
+.container_img >img{
+    grid-row: 1/3;
+    grid-column: 1;
+    z-index: -1;
+}
+.container_img > h4{
+    grid-row: 1/3;
+    grid-column: 1;
+    font-size: 10px;
+    padding: 10px 0 0 10px;
+}
+.container_img > h4 > span{
+    background: #8257E6;
+    border-radius: 3px;
+    padding: 1px 15px;
+}
+
+.container_descricao  p {
+    font-size: 11px;
+    margin-bottom: 9px;
+}
+.container_descricao  p:first-child {
+    color: #FEFBFB;
+    margin-bottom: 10px; 
+    font-size: 13px;
+}
+.container_descricao button{
+    background: #8257E6;
+    border-radius: 3px;
+    padding: 2px 22px;
+    border: 0;
+}
+.container_descricao > button > a{
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #FEFBFB; 
 }
