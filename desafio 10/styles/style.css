@@ -9,9 +9,17 @@ body{
     background-color: #0C0C0C;
     color: #C4C4C4;
 }
+body::-webkit-scrollbar{
+    background-color: #282830;
+    width: 12px; 
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #8257E6;
+}
 .tamanho_maximo{
     max-width: 1120px;
     margin: 0 auto;
+    padding: 10px;
 }
 h1{
     font-size: 3rem;
@@ -23,10 +31,21 @@ h2{
     color: #8257E6;
     font-family: 'Lexend Deca', sans-serif;
 }
+h3{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+}
 h4{
     font-family: 'Lexend Deca', sans-serif;
     color: #FEFBFB;
     font-weight: normal;
+}
+hr{
+    margin: 13px 0 14px 0;
+    width: 250px;
+    border: 2px solid #8257E6 ;
 }
 p{
 
@@ -66,6 +85,7 @@ img{
     grid-column: 1;
     padding: 0 20px 10px 10px;
     font-size: 13px;
+    color: #FEFBFB;
 }
     /* menu */
 
@@ -78,6 +98,9 @@ ul{
     display: flex;
     list-style: none;
     gap: 60px;
+}
+li a:hover{
+    color: #8257E6;
 }
     /* introdução */
 #introducao h1{
@@ -118,6 +141,14 @@ ul{
     overflow-y: scroll;
     max-height: 900px;
 }
+#array_animes::-webkit-scrollbar{
+    background-color: #282830;
+    width: 12px; 
+    
+}
+#array_animes::-webkit-scrollbar-thumb{
+    background-color: #8257E6;
+}
 .container{
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -147,6 +178,9 @@ ul{
     padding: 1px 15px;
 }
 
+.container_descricao{
+    max-width: 400px;
+}
 .container_descricao  p {
     font-size: 11px;
     margin-bottom: 9px;
@@ -167,4 +201,48 @@ ul{
     font-weight: normal;
     line-height: 20px;
     color: #FEFBFB; 
+}
+
+#array_destaques{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+    /*noticias*/
+
+.noticias{
+    margin-top: 100px;
+}
+.noticias hr{
+    margin-bottom: 40px;
+}
+#container_noticias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+    /*footer*/
+    footer{
+        text-align: center;
+    }
+footer h2{
+    margin: 100px auto 15px auto;
+    text-align: center;
+}
+footer p {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+@media screen and (max-width:1024px) and (min-width: 480px) {
+    ul{
+        display: none;
+    }
+    #top_1{
+        grid-template-columns: 1fr 1fr;
+    }
+    .card_1{
+        grid-column: 2fr;
+    }
 }
