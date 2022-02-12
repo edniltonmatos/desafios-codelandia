@@ -5,7 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-thumb{
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{background-color: var(--dark);}
+
+:root{
     --blue: #00D2DF;
     --gradient-pink: linear-gradient(270.06deg, #6518B4 0%, #D24074 101.62%);
     --gradient-purple: linear-gradient(51.06deg, #9358F7 0.87%, #10D7E2 97.48%);
