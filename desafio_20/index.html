@@ -6,27 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="eu me chamo ednilton tenho 18 anos...">
-    <link rel="shortcut icon" href="./imagens/agoravai.png" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="./imagens/five.ico">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
     <title>ednilton matos</title>
 </head>
 
 <body>
+
     <header>
-        <div class="tamanho_maximo" id="menu">
-            <h3><span>Portfólio</span></h3>
-            <nav>
-                <ul id="menu_lista">
-                    <li><a target="_blank" href="#home">Home</a></li>
-                    <li><a target="_blank" href="#sobre_mim">Sobre Mim</a></li>
-                    <li><a href="#experiencia">Experiência</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
+
+        <div id="fixed_top">
+            <div class="tamanho_maximo" id="menu">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                    <span id="hamburger"></span>
+                </button>
+                <h3><span>Portfólio</span></h3>
+                <nav>
+                    <ul id="menu_lista">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre_mim">Sobre Mim</a></li>
+                        <li><a href="#experiencia">Experiência</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+                <input type='checkbox' checked>
+            </div>
         </div>
+        
+        <div id="fixed_bot">
+            <div id="sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="https://api.whatsapp.com/send/?phone=5511986765852&text&app_absent=1"><img src="./svgs/whatsapp.svg" alt="whatsapp"></a></li>
+                        <li><a href="https://www.linkedin.com/in/edniltonmatos/"><img src="./svgs/linkedin.svg" alt="linkedin"></a></li>
+                        <li><a href="https://www.instagram.com/ednilton.matos/"><img src="./svgs/instagram.svg" alt="instagram"></a></li>
+                        <li><a href="https://github.com/edniltonmatos"><img src="./svgs/github.svg" alt="GitHub"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
     </header>
+
     <main>
         <section id="home">
             <div id="home_container">
@@ -34,8 +57,17 @@
                     <h2>olá, eu sou</h2>
                     <h1>ednilton matos</h1>
                     <h2>desenvolvedor front-end</h2>
-                    <button class="button_1"><a target="_blank" href="https://www.instagram.com/plug_edy/"><img src="./svgs/instagram.svg" alt="meu instagram"> Instagram</a></button>
-                    <a target="_blank" href="https://github.com/edniltonmatos"><button class="button_2"><img src="./svgs/github.svg" alt="meu github"> GitHub</button></a>
+                    <div>
+                        <a target="_blank" href="https://www.instagram.com/ednilton.matos/">
+                            <img src="./svgs/instagram.svg" alt="meu instagram"> Instagram
+                        </a>
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://github.com/edniltonmatos"><img src="./svgs/github.svg" alt="meu github"> GitHub</a>
+                    </div>
+                    <div>
+                        <a href="#contato"><img src="./svgs/gmail.svg" alt="entrar em contato">entrar em contato</a>
+                    </div>
                 </div>
                 <img src="./svgs/aspiral.svg" alt="aspiral">
             </div>
@@ -44,27 +76,27 @@
         <section id="sobre_mim" >
             <div id="sobre_mim_container" class="tamanho_maximo  altura_minima">
                 <div id="sobre_mim_img">
-                    <h2><span>foto</span></h2>
+                    <img src="./imagens/minha foto.png" alt="Ednilton Matos">
                 </div>
                 <div id="sobre_mim_description2">
                     <h2>sobre mim</h2>
                     <h4>São Paulo, Brasil</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id egestas dui. Nullam finibus
-                        aliquam enim quis faucibus. Aenean ac commodo dolor, nec bibendum velit.</p>
+                    <p>Olá, me chamo Ednilton matos. Tenho o sonho de criar um aplicativo a altura dos mais utilizados nos dias de hoje, e tornar o Brasil uma referência quando se trata de tecnologia.</p>
+                    <p>Atualmente sou freelancer na área de desenvolvimento web e crio de sites institucionais a e-mails em HTML, Mas estudo desenvolvimento mobile e estou em busca do meu maior objetivo.</p>  
                 <nav>
                     <ul>
                         <li><a target="_blank" href="https://github.com/edniltonmatos"><img src="./svgs/github.svg"
                                     alt="meu github"></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/plug_edy/"><img src="./svgs/instagram.svg"
+                        <li><a target="_blank" href="https://www.instagram.com/ednilton.matos/"><img src="./svgs/instagram.svg"
                                     alt="meu instagram"></a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/in/edniltonmatos/"><img
                                     src="./svgs/linkedin.svg" alt="meu linkedin"></a></li>
-                        <li><a target="_blank" href="tel:11984195210">(11) 984195210</a></li>
+                        <li><a target="_blank" href="tel:11984195210"><img src="./svgs/phone.svg" alt="meu telefone"></a></li>
                     </ul>
                 </nav>
                 <button><a target="_blank" href="mailto:edniltonprogramador@gmail.com"><img src="./svgs/gmail.svg"
                             alt="meu gmail"> E-mail</a></button>
-                <button><a target="_blank" href="https://github.com/edniltonmatos"><img src="./svgs/smile.svg"
+                <button><a href="#contato"><img src="./svgs/smile.svg"
                             alt="meu github"> Contato</a></button>
                 </div>
             </div>

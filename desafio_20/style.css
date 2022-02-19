@@ -153,3 +153,6 @@ header{
 #sobre_mim_description{
     width: 50%;
 }
+a img{
+    width: 20px;
+}
