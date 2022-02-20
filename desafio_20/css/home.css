@@ -1,0 +1,48 @@
+#home{
+    background-color: var(--principal);
+    height: 100vh;
+    width: 100%;
+}
+#home{
+    background-image: url(/desafio_20/svgs/aspiral.svg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+}
+#apresentacao{
+    width: 100%;
+}
+@media screen and (max-width:480px) {
+    #apresentacao h1{
+        font-size: 2.4rem;
+        line-height: 4rem;
+    }
+    #home{
+        background-size: 500px;
+    }
+}
+@media screen and (max-width:950px) {
+    #home{
+        background-position:right bottom 20vh ;
+    }
+    
+}
+.btn-one{
+    height: calc(100% - 1px);
+    width: calc(100% - 1px);
+    display: inline-block;
+    background-color: var(--principal);
+    margin-top: 4rem;
+}
+.btn-one > div{
+    padding: 15px 35px;
+    background-image: var(--gradient-pink);
+}
+.btn-one > div > a{
+    display: block;
+
+}

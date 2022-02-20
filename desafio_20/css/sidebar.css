@@ -1,0 +1,22 @@
+#fixed_bot{
+    display: none;
+}
+#sidebar > nav > ul{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid var(--secund-principal);
+}
+a > svg{
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+}
+@media screen and (max-width:480px) {
+    #fixed_bot{
+        display: block;
+        background-color: var(--principal); 
+        margin-top: auto;
+    }
+}
