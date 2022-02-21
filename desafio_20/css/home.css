@@ -31,18 +31,4 @@
     }
     
 }
-.btn-one{
-    height: calc(100% - 1px);
-    width: calc(100% - 1px);
-    display: inline-block;
-    background-color: var(--principal);
-    margin-top: 4rem;
-}
-.btn-one > div{
-    padding: 15px 35px;
-    background-image: var(--gradient-pink);
-}
-.btn-one > div > a{
-    display: block;
 
-}

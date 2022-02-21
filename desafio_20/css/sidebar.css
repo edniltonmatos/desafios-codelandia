@@ -1,5 +1,8 @@
 #fixed_bot{
+    position: fixed;
+    bottom: 0;
     display: none;
+    width: 100%;
 }
 #sidebar > nav > ul{
     display: flex;
@@ -11,12 +14,11 @@
 a > svg{
     width: 30px;
     height: 30px;
-    color: #ffffff;
+    color: var(--oposto);
 }
 @media screen and (max-width:480px) {
     #fixed_bot{
         display: block;
         background-color: var(--principal); 
-        margin-top: auto;
     }
 }

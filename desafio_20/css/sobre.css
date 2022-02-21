@@ -1,0 +1,9 @@
+#sobre_mim_container{
+    display: flex;
+}
+#sobre_mim_img{
+    max-width: 367px;
+    max-height: 367px;
+    object-fit: contain;
+    margin-right: 5rem;
+}

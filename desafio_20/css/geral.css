@@ -41,7 +41,7 @@ h1,h2,a{
     font-weight: 600;
 }
 h1{
-    color: var(--color);
+    color: var(--oposto);
     font-size: 64px;
     line-height: 5rem;
     text-transform: uppercase;
@@ -50,23 +50,25 @@ h2{
     font-size: 24px;
     color: var(--oposto);
     text-transform: uppercase;
+    margin: 0.5rem 0;
 }
 h3{
     font-weight: normal;
     font-size: 24px;
-    color: var(--color);
+    color: var(--oposto);
 }
 h4{
     color: var(--oposto);
     font-size: 20px;
 }
 p{
-    color: var(--secund-oposto);
-    line-height: 32px;
     font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: var(--secund-oposto);
 }
 .bg-primary{background-color: var(--principal);}
-.bg-secund{background-color: var(--oposto);}
+.bg-secund{background-color: var(--secund-principal);}
 
 
 body{
@@ -82,15 +84,23 @@ li{
 header{
     position: fixed;
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    z-index: 2;
 }
-/*
 .altura_minima{
     padding: 100px 0;
 }
+section{
+    width: 100vw;
+}
+h5{   
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--oposto);
+}
+span{
+    color: var(--color);
+}
+/*
 h1{
     color: var(--blue);
     font-size: 64px;
