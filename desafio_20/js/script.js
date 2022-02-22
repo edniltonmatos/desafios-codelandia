@@ -25,3 +25,4 @@ chk.addEventListener('change', () => {
 	document.body.classList.toggle('light');
 });
 
+/*light dark svgs*/  
