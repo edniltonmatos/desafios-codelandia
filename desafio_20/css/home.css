@@ -3,7 +3,7 @@
     height: 100vh;
 }
 #home{
-    background-image: url(/desafio_20/svgs/aspiral.svg);
+    background-image: url(./svgs/aspiral.svg);
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
