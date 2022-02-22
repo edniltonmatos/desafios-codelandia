@@ -50,7 +50,6 @@ h2{
     font-size: 24px;
     color: var(--oposto);
     text-transform: uppercase;
-    margin: 0.5rem 0;
 }
 h3{
     font-weight: normal;
@@ -96,9 +95,6 @@ header{
 }
 .altura_minima{
     padding: 100px 0;
-}
-section{
-    width: 100vw;
 }
 span{
     color: var(--color);

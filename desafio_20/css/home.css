@@ -1,7 +1,6 @@
 #home{
     background-color: var(--principal);
     height: 100vh;
-    width: 100%;
 }
 #home{
     background-image: url(/desafio_20/svgs/aspiral.svg);
@@ -68,6 +67,6 @@
 @keyframes example {
         100%
         {
-            transform: translateY(-2rem);
+            transform: translateY(-1.5rem);
         }
 }
