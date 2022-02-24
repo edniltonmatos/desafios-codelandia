@@ -3,6 +3,7 @@
     bottom: 0;
     display: none;
     width: 100%;
+    z-index: 2;
 }
 #sidebar > nav > ul{
     display: flex;
@@ -11,14 +12,30 @@
     justify-content: space-around;
     border-top: 1px solid var(--secund-principal);
 }
-a > svg{
-    width: 30px;
-    height: 30px;
-    color: var(--oposto);
-}
 @media screen and (max-width:480px) {
     #fixed_bot{
         display: block;
         background-color: var(--principal); 
+    }
+}
+footer{
+    padding: 30px 0;
+    box-sizing: content-box;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+footer div p{
+    display: flex;
+    align-items: center;
+}
+footer svg{
+    padding-left: .5rem;
+    box-sizing: content-box;
+}
+@media screen and (max-width:480px) {
+    footer{
+        margin-bottom: 10vh;
     }
 }

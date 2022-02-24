@@ -7,6 +7,10 @@
     object-fit: cover;
     margin-right: 5rem;
     border-left: 4px solid var(--color);
+    border-radius: 4px;
+}
+#sobre_mim_img:hover{
+    border-left: 4px solid var(--secund-color);
 }
 #sobre_mim_description2{
     display: flex;
@@ -25,6 +29,17 @@
 }
 #sobre_mim_description2 h2{
     margin-bottom: 1rem;
+}
+#sobre_mim_description2 li>a{
+    border-radius: 10px;
+    padding: .3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#sobre_mim_description2 li > a:hover{
+    display: flex;
+    background-color: var(--contraste);
 }
 @media screen and (max-width: 920px) {
     #sobre_mim_container{

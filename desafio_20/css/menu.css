@@ -12,7 +12,7 @@
     height: 100%;
     border-bottom: 1px solid var(--secund-principal);
 }
-@media (max-width: 880px) {
+@media screen and (max-width: 920px) {
     .top-bar{
         justify-content: start ;
     }
@@ -36,7 +36,7 @@ a{
 a:hover{
     color: var(--secund-color);
 }
-@media (max-width: 880px) {
+@media screen and (max-width: 920px) {
     #menu {
     display: block;
     position: absolute;
@@ -68,10 +68,10 @@ a:hover{
   color: var(--oposto);
 }
 
-@media (max-width: 880px) {
+@media screen and (max-width: 920px) {
   #btn-mobile {
     display: flex;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 0;
     font-size: 1rem;
     border: none;
     background: none;
@@ -140,7 +140,7 @@ a:hover{
   .checkbox:checked + .label .ball {
     transform: translateX(1.5rem);
   }
-  @media (max-width: 880px) {
+  @media screen and (max-width: 920px) {
     .label{
       margin-left: auto;
     }

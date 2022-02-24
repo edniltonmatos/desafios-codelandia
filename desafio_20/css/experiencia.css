@@ -1,0 +1,48 @@
+#container_experiencia{
+    display: flex;
+    margin-top: 1.5rem;
+
+}
+#container_experiencia nav{
+    margin-right: 5rem;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+}
+.tab{
+    width: 200px;
+    padding: 15px 30px;
+    border-left: 2px solid var(--secund-principal);
+}
+.active{
+    border-left: 2px solid var(--color);
+    background-color: var(--secund-principal);
+}
+#expericencia_description2{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+#expericencia_description2 div{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 920px){
+    #container_experiencia{
+        flex-direction: column;
+    }
+    #container_experiencia nav{
+        margin-right: auto;
+        margin-bottom: 2rem;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:480px){
+    #expericencia_description2 div{
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .tab{
+        width: auto;
+    }
+}
