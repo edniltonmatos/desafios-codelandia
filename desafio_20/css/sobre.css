@@ -13,8 +13,39 @@
     flex-direction: column;
     justify-content: space-between;
 }
+#sobre_mim_description2 div{
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+}
 
 #sobre_mim_description2 ul{
     display: flex;
     gap: 2rem;
+}
+#sobre_mim_description2 h2{
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 920px) {
+    #sobre_mim_container{
+        flex-direction: column;
+    }
+    #sobre_mim_img{
+        width: auto;
+        margin: auto;
+        
+    }
+    #sobre_mim_description2{
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+}
+@media screen and (max-width:480px) {
+    #sobre_mim_img{
+        width: 100%;
+    }
+    
+    #sobre_mim_description2 .btn-two {
+        display: none;
+    }
 }

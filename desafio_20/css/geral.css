@@ -101,6 +101,9 @@ span{
 }
 .redes_socias{
     margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
 }
 button{
     font-size: 16px;
@@ -109,6 +112,9 @@ button{
     color: var(--oposto);
     background: none;
     cursor: pointer;
+}
+stroke{
+    color: var(--oposto);
 }
 /*
 h1{
