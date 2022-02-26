@@ -72,6 +72,12 @@ form svg{
     align-items: center;
     justify-content: center;
     border-radius: 3px;
+    cursor: pointer;
+}
+#ultima div:hover{
+    border: 2px solid var(--purple-light);
+    color: var(--purple-light);
+    transition: .2s;
 }
 @media screen and (max-width:1024px){
     #container_pesquisa{
