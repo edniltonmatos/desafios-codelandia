@@ -1,0 +1,47 @@
+#menu li:last-child:hover{
+    background-color: none;
+    color: #FEFBFB;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main div{
+    max-width: 450px;
+    margin-top:120px;
+}
+h1{
+    margin-bottom: 20px;
+}
+button{
+    background: #8257E6;
+    border-radius: 3px;
+    padding: 5px 25px;
+    border: 0;
+    margin-top: 40px;
+}
+#container_2 p{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+button a{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    color: #FEFBFB; 
+}
+img{
+    margin-bottom: 40px;
+}
+@media screen and (max-width:900px){
+    main{
+        flex-direction: column-reverse;
+    }
+    main div:first-child{
+        margin-bottom: 120px;
+    }
+}
