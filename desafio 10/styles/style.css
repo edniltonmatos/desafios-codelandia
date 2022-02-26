@@ -9,13 +9,22 @@ body{
     background-color: #0C0C0C;
     color: #C4C4C4;
 }
-body::-webkit-scrollbar{
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
     background-color: #282830;
     width: 12px; 
+    box-sizing: content-box;
 }
-body::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb{
     background-color: #8257E6;
+    border-right: 2px solid #282830;
+    border-left: 2px solid #282830;
+    border-top: 3px solid #282830;
+    border-bottom: 3px solid #282830;
 }
+
 .tamanho_maximo{
     max-width: 1120px;
     margin: 0 auto;
@@ -42,13 +51,19 @@ h4{
     color: #FEFBFB;
     font-weight: normal;
 }
+h5{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #ffffff;
+}
 hr{
     margin: 13px 0 14px 0;
     width: 250px;
     border: 2px solid #8257E6 ;
 }
 p{
-
     line-height: 20px;
 }
 span{
@@ -144,14 +159,6 @@ li a:hover{
 #array_animes{
     overflow-y: scroll;
     max-height: 900px;
-}
-#array_animes::-webkit-scrollbar{
-    background-color: #282830;
-    width: 12px; 
-    
-}
-#array_animes::-webkit-scrollbar-thumb{
-    background-color: #8257E6;
 }
 .container{
     display: grid;
