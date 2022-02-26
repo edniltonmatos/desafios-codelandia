@@ -6,16 +6,17 @@
 }
 #formulario{
     background-color: var(--invisibol);
-    backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1.5rem);
     border-radius: 4px;
     padding: 2rem;
     max-width: 400px;
 }
-#formulario h3{
+#formulario h3, h5{
     margin-bottom: 1rem;
+    color: #ffffff;
 }
-#formulario h5{
-    margin-bottom: 1rem;
+#formulario button{
+    color: #ffffff;
 }
 form{
     display: flex;
@@ -25,25 +26,25 @@ input, textarea{
     background: none;
     font-size: 14px;
     font-weight: 300;
-    color: var(--secund-oposto);
+    color: #c4c4c4;
     padding: .3rem 1rem;
     outline: none;
     border-radius: 4px;
-    border: 2px solid var(--contraste);
+    border: 2px solid #353535;
     margin-bottom: 1rem;
 }
 textarea::placeholder{
-    color: var(--secund-oposto);
+    color: #c4c4c4;
 }
 
 input::placeholder{
-    color: var(--secund-oposto);
+    color: #c4c4c4;
 }
 textarea:focus{
-    border: 2px solid #D24074;
+    border: 2px solid var(--color);
 }
 input:focus{
-    border: 2px solid #D24074;
+    border: 2px solid var(--color);
 }
 textarea{
     height: 4rem;

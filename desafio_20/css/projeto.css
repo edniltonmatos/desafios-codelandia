@@ -1,3 +1,11 @@
+body.light #projetos{
+    background-image: url(../svgs/vetor.light.svg);
+}
+#projetos{
+    background-image: url(../svgs/vetor.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
 #container_projetos{
     display: flex;
     flex-wrap: wrap;
@@ -17,18 +25,14 @@
     border-left: 4px solid var(--color);
     border-radius: 4px;
 }
-.projeto img:hover{
-    border-left: 4px solid var(--secund-color);
-}
 .projeto li{
     padding: .1rem .5rem;
     border-radius: 20px;
-    background-color: var(--principal);
-    color: var(--color);
+    background-color: var(--color-blur);
+    color: var(--principal);
     font-size: 10px;
     font-weight: 500;
     line-height: 20px;
-    border: 1px solid var(--secund-oposto);
 }
 .projeto ul{
     display: flex;

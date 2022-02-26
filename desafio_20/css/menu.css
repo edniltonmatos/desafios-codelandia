@@ -4,6 +4,8 @@
 #top{
     display: fixed;
     height: 10vh;
+    background-color: var(--blur);
+    backdrop-filter: blur(1.5rem);
 }
 .top-bar{
     display: flex;
@@ -27,14 +29,16 @@
     display: flex;
     gap: 4rem;
 }
-a{
+#menu a{
     font-size: 16px;
     line-height: 19px;
     text-decoration: none;
     color: var(--secund-oposto);
+    padding: .3rem .5rem;
+    border-radius: 10px;
 }
-a:hover{
-    color: var(--secund-color);
+#menu a:hover{
+  background-color: var(--contraste);
 }
 @media screen and (max-width: 920px) {
     #menu {

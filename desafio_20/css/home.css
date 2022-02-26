@@ -10,7 +10,9 @@
 }
 #apresentacao{
     width: 100%;
+
 }
+
 @media screen and (max-width:480px) {
     #apresentacao h1{
         font-size: 3rem;
@@ -30,27 +32,23 @@
     
 }
 .btn-one{
-    padding: .5rem 2rem;
+    padding: .5rem 1.7rem;
     border: 10px solid;
     border-image-slice: 1;
     border-width: 2px;
-    border-image-source:var(--gradient-pink);
+    border-image-source:var(--gradient);
     border-radius: 4px;
     display: inline-flex;
     align-items: center; 
 }
-.btn-two{
-    padding: .5rem 2rem;
-    border: 10px solid;
-    border-image-slice: 1;
-    border-width: 2px;
-    border-image-source:var(--gradient-purple);
-    border-radius: 4px;
-    display: inline-flex;
-    align-items: center;
+.btn-one:hover{
+    background-image: var(--gradient);
+    color: var(--principal);
+    transition: .3s;
 }
-.btn-two svg{
-    margin-right: 1rem;
+.btn-one:hover svg{
+    color: var(--principal);
+    transition: .3s;
 }
 .btn-one svg{
     margin-right: 1rem;

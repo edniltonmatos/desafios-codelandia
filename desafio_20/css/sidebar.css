@@ -15,7 +15,8 @@
 @media screen and (max-width:480px) {
     #fixed_bot{
         display: block;
-        background-color: var(--principal); 
+        background-color: var(--blur); 
+        backdrop-filter: blur(1.5rem);
     }
 }
 footer{
