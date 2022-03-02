@@ -48,7 +48,7 @@ html{
     }
 }
 .altura_minima{
-    padding: 100px 0;
+    padding: 70px 0;
 }
 .bg-primary{background-color: var(--principal);}
 .bg-secund{background-color: var(--secund-principal);}

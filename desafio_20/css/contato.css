@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 70vh;
 }
 #formulario{
     background-color: var(--invisibol);
