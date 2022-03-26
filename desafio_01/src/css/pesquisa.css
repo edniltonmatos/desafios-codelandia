@@ -1,0 +1,35 @@
+@import url(./global.css);
+header{
+    background: var(--gradient-default);
+    padding: 2.5rem 0;
+}
+header > section div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+header > section div:nth-child(2){
+    background-color: var(--light-tranparent);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+header > section div:nth-child(2) > label > svg{
+    padding: 1rem;
+}
+header > section div:nth-child(2) > input{
+    width: 100%;
+}
+@media screen and (max-width:899px) {
+    header{
+        padding: 2.5rem 1.25rem;
+    }
+}
+@media screen and (max-width:480px) {
+    header > section div:nth-child(2) > label > svg{
+    padding: .7rem;
+    }
+    header > section div:nth-child(1){
+        margin-bottom: 2.5rem;
+    }
+}

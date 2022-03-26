@@ -3,6 +3,8 @@
 *{
     font-family: 'Lexend Deca', sans-serif;
     color: var(--dark);
+    padding: 0;
+    margin: 0;
 }
 :root{
     --purple:#574AE8;
@@ -38,8 +40,30 @@ input{
     font-size: 1.1rem;
     line-height: 120%;
     color: var(--light);
-    padding: 20px;
+    padding: 1.25rem 0;
     border: none;
     outline: none;
-    background-color: var(--light-tranparent);
+    background: none;
+}
+input::placeholder{
+    color: var(--light-tranparent);
+}
+.max-width{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+@media screen and (max-width:480px) {
+    h1,h2{
+        font-size: 1.1rem;
+    }
+    p,input,input::placeholder{
+        font-size: .9rem;
+    }
+    input{
+        padding: .9rem 0;
+    }
+    time{
+        font-size:.8rem;
+    }
 }
