@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap');
+
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--dark);
+}
+:root{
+    --purple:#574AE8;
+    --gradient-default:linear-gradient(270deg, #3EA1DB 0%, #574AE8 100%);
+    --light:#FFFFFF;
+    --light-tranparent: #ffffff33;
+    --light-200:#F9F9F9;
+    --dark:#1A202C;
+    --mediun:#717171;
+}
+
+h1{
+    font-size: 1.6rem;
+    line-height: 120%;
+    font-weight: 400;
+}
+h2{
+    line-height: 120%;
+    font-size: 1.5rem;
+    color: var(--light);
+    font-weight: 400;
+}
+p{
+    font-size: 1.1rem;
+    line-height: 150%;
+    font-weight: 400;
+}
+time{
+    font-size: 1rem;
+    line-height: 150%;
+}
+input{
+    font-size: 1.1rem;
+    line-height: 120%;
+    color: var(--light);
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--light-tranparent);
+}
