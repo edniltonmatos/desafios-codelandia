@@ -7,7 +7,7 @@
     margin: 0;
 }
 :root{
-    --purple:#574AE8;
+    --purple:#3EA1DB;
     --gradient-default:linear-gradient(270deg, #3EA1DB 0%, #574AE8 100%);
     --light:#FFFFFF;
     --light-tranparent: #ffffff33;
@@ -15,7 +15,13 @@
     --dark:#1A202C;
     --mediun:#717171;
 }
-
+::-webkit-scrollbar{
+    background: var(--light-200);
+    width: .5rem;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--purple);
+}
 h1{
     font-size: 1.6rem;
     line-height: 120%;
@@ -37,18 +43,6 @@ time{
     font-size: 1rem;
     line-height: 150%;
 }
-input{
-    font-size: 1.1rem;
-    line-height: 120%;
-    color: var(--light);
-    padding: 1.25rem 0;
-    border: none;
-    outline: none;
-    background: none;
-}
-input::placeholder{
-    color: var(--light-tranparent);
-}
 .max-width{
     max-width: 900px;
     width: 100%;
@@ -58,7 +52,7 @@ input::placeholder{
     h1,h2{
         font-size: 1.1rem;
     }
-    p,input,input::placeholder{
+    p{
         font-size: .9rem;
     }
     input{

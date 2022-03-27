@@ -20,6 +20,20 @@ header > section div:nth-child(2) > label > svg{
 header > section div:nth-child(2) > input{
     width: 100%;
 }
+input{
+    font-size: 1.1rem;
+    line-height: 120%;
+    color: var(--light);
+    padding: 1.25rem 0;
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+input::placeholder{
+    color: var(--light-tranparent);
+}
 @media screen and (max-width:920px) {
     header{
         padding: 2.5rem 1.25rem;
@@ -31,5 +45,8 @@ header > section div:nth-child(2) > input{
     }
     header > section div:nth-child(1){
         margin-bottom: 2.5rem;
+    }
+    input,input::placeholder{
+        font-size: .9rem;
     }
 }
