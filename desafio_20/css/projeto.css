@@ -20,7 +20,7 @@ body.light #projetos{
 }
 .projeto img{
     width: 100%;
-    height: 200px;
+    height: 220px;
     object-fit: cover;
     border-left: 4px solid var(--color);
     border-radius: 4px;
@@ -37,6 +37,16 @@ body.light #projetos{
 .projeto ul{
     display: flex;
     gap: 1rem;
+}
+.projeto div{
+    width: 100%;
+    height: 220px;
+    border-left: 4px solid var(--color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--principal);
 }
 @media screen and (max-width:720px) {
     .projeto{
