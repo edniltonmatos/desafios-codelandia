@@ -20,7 +20,7 @@ header > section div:nth-child(2) > label > svg{
 header > section div:nth-child(2) > input{
     width: 100%;
 }
-@media screen and (max-width:899px) {
+@media screen and (max-width:920px) {
     header{
         padding: 2.5rem 1.25rem;
     }
