@@ -1,45 +1,34 @@
-<h1 align="center">
-  💻<br>Meu Portfólio
-</h1>
+![cover codelândia](/codelandia-cover.png)
 
-<h4 align="center">
-  repositório criado para mostrar todas as minhas releituras dos desafios da codelândia.
-</h4>
+Todos os desafios aqui realizados são elaborados pelo Iuri Silva, idealizador da Comunidade Codelândia. Os projetos são criados a partir dos layouts criados pelo mesmo, sendo codados em HTML/CSS/Javascript.
 
-<img src="https://github.com/HenriqueTorrico/iuricode-desafios/blob/main/design/desafios.jpg"></img>
+---
+### lista de desafios 
 
-<h4 align="center"><a href="https://codelandia10.vercel.app/">Clique para visitar o projeto</a></h4>
-
-## 📄 Descrição
-Uma breve explicação do que foi feito:
-
-Este foi um projeto pessoal inspirado nos desafios do [iurecode](https://www.instagram.com/iuricode/) (desafio 10), esse é o resultado da versão 0.
+- [x] [desafio 01 - blog][https://blog-ednilton-matos.vercel.app/]
+- [ ] desafio 02
+- [ ] desafio 03
+- [ ] desafio 04
+- [ ] desafio 05
+- [ ] desafio 06
+- [ ] desafio 07
+- [ ] desafio 08
+- [ ] desafio 09
+- [x] [desafio 10 - Naped][https://naped-ednilton-matos.vercel.app/]
+- [ ] desafio 11
+- [ ] desafio 12
+- [ ] desafio 13
+- [ ] desafio 14
+- [ ] desafio 15
+- [ ] desafio 16
+- [ ] desafio 17
+- [ ] desafio 18
+- [ ] desafio 19
+- [x] [desafio 20 - portifólio][https://edniltonmatos.vercel.app/]
+- [ ] desafio 21
+- [ ] desafio 22
+- [ ] desafio 23
 
 ---
 
-## 📚 Seções
-O site é composto por $ seções diferentes:
-
----
-
-## 💼 Tecnologias utilizadas
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
-
-- HTML;
-- css;
-
----
-
-## 🙃Autor<br>
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/edniltonmatos">
-        <img src="https://github.com/edniltonmatos/portfolio/blob/main/imagens/minha%20foto.png" width="100px;" alt="foto do usuário ednilton matos"/><br>
-        <sub>
-          <b>ednilton matos</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
+feito com :blue_heart: por Ednilton Matos.
