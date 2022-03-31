@@ -5,7 +5,7 @@ Todos os desafios aqui realizados são elaborados pelo Iuri Silva, idealizador d
 ---
 ### lista de desafios 
 
-- [x] [desafio 01 - blog][https://blog-ednilton-matos.vercel.app/]
+- [x] [desafio 01 - blog](https://blog-ednilton-matos.vercel.app/)
 - [ ] desafio 02
 - [ ] desafio 03
 - [ ] desafio 04
@@ -14,7 +14,7 @@ Todos os desafios aqui realizados são elaborados pelo Iuri Silva, idealizador d
 - [ ] desafio 07
 - [ ] desafio 08
 - [ ] desafio 09
-- [x] [desafio 10 - Naped][https://naped-ednilton-matos.vercel.app/]
+- [x] [desafio 10 - Naped](https://naped-ednilton-matos.vercel.app/)
 - [ ] desafio 11
 - [ ] desafio 12
 - [ ] desafio 13
@@ -24,7 +24,7 @@ Todos os desafios aqui realizados são elaborados pelo Iuri Silva, idealizador d
 - [ ] desafio 17
 - [ ] desafio 18
 - [ ] desafio 19
-- [x] [desafio 20 - portifólio][https://edniltonmatos.vercel.app/]
+- [x] [desafio 20 - portifólio](https://edniltonmatos.vercel.app/)
 - [ ] desafio 21
 - [ ] desafio 22
 - [ ] desafio 23
