@@ -1,6 +1,6 @@
 ![cover codelândia](/codelandia-cover.png)
 
-Todos os desafios aqui realizados são elaborados pelo Iuri Silva, idealizador da Comunidade Codelândia. Os projetos são criados a partir dos layouts criados pelo mesmo, sendo codados em HTML/CSS/Javascript.
+> Todos os desafios aqui realizados são elaborados pelo Iuri Silva, idealizador da Comunidade Codelândia. Os projetos são criados a partir dos layouts criados pelo mesmo, sendo codados em HTML/CSS/Javascript.
 
 ## lista de desafios 
 
