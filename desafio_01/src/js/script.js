@@ -13,3 +13,10 @@ window.addEventListener('load', () => {
   }, 300);
 
 })
+//animação coração
+const card = document.querySelector("article")
+const coracao = document.querySelector("#coracao")
+
+card.addEventListener('click',function(){
+ coracao.style.color = "red"
+})
