@@ -21,9 +21,6 @@ article:hover{
     transform: translateY(-.25rem);
     transition: .2s;
 }
-article:hover path{
-    fill:red;
-}
 article div{
     display: flex;
     justify-content: space-between;
