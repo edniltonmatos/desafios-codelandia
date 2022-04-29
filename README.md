@@ -6,8 +6,8 @@
 
 | status | desafio    | descrição | layout | demo |
 | ------ | ---------- | --------- | ------ | ---- |
-| <ul><li> [x] </li></ul> | desafio 01 |           |        |[blog](https://blog-ednilton-matos.vercel.app/)|
-| <ul><li> [ ] </li></ul>  | desafio 02 | | |
+| <ul><li> [x] </li></ul>  | desafio 01 | | |[blog](https://blog-ednilton-matos.vercel.app/)|
+| <ul><li> [x] </li></ul>  | [desafio 02](https://github.com/edniltonmatos/desafios-codelandia/tree/main/desafio_02) | JordanShoes, a melhor loja de sneakers nacional. | [Link do figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=1883%3A2)  | [JordanShoes](https://jordanshoes-ednilton-matos.netlify.app/) |
 | <ul><li> [ ] </li></ul>  | desafio 03 | | |
 | <ul><li> [ ] </li></ul>  | desafio 04 | | |
 | <ul><li> [ ] </li></ul>  | desafio 05 | | |
