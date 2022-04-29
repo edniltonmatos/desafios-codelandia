@@ -20,6 +20,13 @@ body{
     background-color: var(--white);
     color: var(--black-light);
 }
+::-webkit-scrollbar{
+    background: var(--white);
+    width: .5rem;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--black-light);
+}
 .tamanho-minimo{
     max-width: 1240px;
     margin: 0 auto;
