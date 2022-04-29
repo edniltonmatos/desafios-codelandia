@@ -1,6 +1,6 @@
 #menu li:last-child:hover{
     background-color: none;
-    color: #FEFBFB;
+    color: var(--white);
 }
 main{
     display: flex;
@@ -15,7 +15,7 @@ h1{
     margin-bottom: 20px;
 }
 button{
-    background: #8257E6;
+    background: var(--purple-light);
     border-radius: 3px;
     padding: 5px 25px;
     border: 0;
@@ -32,7 +32,7 @@ button a{
     font-weight: 400;
     line-height: 34px;
     text-align: center;
-    color: #FEFBFB; 
+    color: var(--white); 
 }
 img{
     margin-bottom: 40px;
