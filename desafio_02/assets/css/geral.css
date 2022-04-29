@@ -1,6 +1,14 @@
     /* importações */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
+    /*vaiaveis css*/
+:root{
+    --black-light: #181818;
+    --gray:#474747;
+    --white: #f9f9f9;
+    --white-200:#Ebebeb;
+}
+
     /*configurações gerais*/
 *{
     padding: 0;
@@ -43,4 +51,9 @@ h1.white{
     .tamanho-minimo{
         padding: 0 1.25rem;
     }
+}
+
+    /*animações*/
+.animacoes,.animacoes-list{
+    visibility: hidden;
 }
