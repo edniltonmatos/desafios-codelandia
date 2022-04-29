@@ -1,0 +1,25 @@
+footer{
+    padding: 1.25rem 0;
+    margin-top: 100px;
+    background: var(--black-light);
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+footer div p{
+    display: flex;
+    align-items: center;
+}
+footer svg{
+    padding-left: .5rem;  
+}
+@media screen and (max-width:480px) {
+    footer{
+        padding: 1.25rem;
+    }
+    footer div{
+        flex-direction: column;
+        align-items: center;
+    }
+}

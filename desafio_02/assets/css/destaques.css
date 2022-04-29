@@ -1,0 +1,23 @@
+#destaques > div:first-child{
+    text-align: center;
+    margin: 4rem 0;
+}
+#destaques > div:first-child > p{
+    padding-top: 1.25rem;
+}
+#destaques > div:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem .75rem;
+}
+#destaques > div:last-child > div{
+    background-color: var(--white-200);
+    flex: 1 0 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+#destaques > div:last-child > div > img{
+    width: 250px;
+}

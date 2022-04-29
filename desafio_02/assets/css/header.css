@@ -1,0 +1,10 @@
+header{
+    text-align: center;
+}
+header > p{
+    background-color:var(--black-light);
+    padding: 1rem;
+}
+header > h2{
+    padding: 1rem 0;
+}
