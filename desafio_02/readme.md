@@ -1,7 +1,9 @@
-# JordanShoes
+<h1 align="center"> JordanShoes</h1>
 
-
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/96772358/166059490-4d3cb700-a239-4e77-93f7-89fd286919f4.gif"/>
+</div>
+  
 > desafio 02 da comunidade codelândia. Uma loja online ficticia, focada na venda de jordans.
 
 
