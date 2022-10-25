@@ -1,0 +1,30 @@
+#design-minimalista{
+    display: flex;
+    padding: 4rem auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#design-minimalista > img{
+    box-shadow: -50px -50px var(--black);
+    width: calc(100%/2 - 5rem);
+    margin: 50px 0 0 50px;
+}
+#container{
+    width: calc(100%/2 - 5rem);
+}
+#design-minimalista > #container > div{
+    background: var(--black);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#design-minimalista > #container > div >h2{
+    margin-bottom: 1.25rem;
+}
+@media (max-width: 950px) {
+    #design-minimalista > img{
+        display: none;
+    }
+    #container{
+        width: 100%;
+    }
+}
