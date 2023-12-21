@@ -47,7 +47,7 @@
     transition: .3s;
 }
 .btn-one:hover svg{
-    color: var(--principal);
+    fill: var(--principal);
     transition: .3s;
 }
 .btn-one svg{
